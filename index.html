@@ -5,10 +5,7 @@
 
 <meta charset="UTF-8">
 
-<meta
-name="viewport"
-content="width=device-width, initial-scale=1"
->
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <meta
 name="description"
@@ -20,14 +17,76 @@ name="keywords"
 content="Patil Divya, Data Analyst, Power BI, SQL, Python, Excel, Data Analytics"
 >
 
-<meta
-name="author"
-content="Patil Divya"
->
+<meta name="author" content="Patil Divya">
 
 <title>Patil Divya | Data Analyst</title>
 
 <link rel="stylesheet" href="./style.css?v=20260814">
+
+<!-- Critical responsive fixes -->
+<style>
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.project-gallery {
+    width: 100%;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+    margin: 18px 0;
+    overflow: hidden;
+}
+
+.project-gallery img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: 150px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+
+    .project-gallery {
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+    }
+
+    .project-gallery img {
+        height: 110px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .project-gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .project-gallery img {
+        height: 90px;
+    }
+
+}
+
+</style>
+
 </head>
 
 
@@ -42,7 +101,7 @@ content="Patil Divya"
 Patil Divya<span>.</span>
 </a>
 
-<button id="menu" aria-label="Open menu">
+<button id="menu" aria-label="Open navigation menu">
 ☰
 </button>
 
@@ -74,38 +133,40 @@ Patil Divya<span>.</span>
 DATA ANALYST • POWER BI • SQL • PYTHON • EXCEL
 </p>
 
+
 <h1>
 Hi, I'm <span>Patil Divya.</span>
 </h1>
 
+
 <h2>
-I turn complex data into clear insights and business decisions.
+I use data to uncover insights, solve business problems,
+and support better decisions.
 </h2>
+
 
 <p class="lead">
 
 Data Analyst with hands-on experience in Python, SQL,
-Power BI and Excel, backed by 1 year 7 months of professional
-experience as a Representative Operations – Advisor and an
-MCA in Data Science.
+Power BI and Excel, backed by 1 year 7 months of
+professional experience as a Representative Operations –
+Advisor and an MCA in Data Science.
 
 </p>
 
 
 <div class="actions">
 
-<a
-class="btn primary"
-href="#projects"
->
+<a class="btn primary" href="#projects">
 View Projects
 </a>
 
 
 <a
 class="btn"
-href="assets/resume/Divya_Patil_Resume.pdf"
+href="_Data%20analyticss.pdf"
 target="_blank"
+rel="noopener"
 >
 Download Resume
 </a>
@@ -133,9 +194,7 @@ LinkedIn ↗
 </a>
 
 
-<a
-href="mailto:patildivya0616@gmail.com"
->
+<a href="mailto:patildivya0616@gmail.com">
 Email ↗
 </a>
 
@@ -143,6 +202,8 @@ Email ↗
 
 </div>
 
+
+<!-- ANALYTICS WORKFLOW -->
 
 <div class="hero-panel">
 
@@ -157,7 +218,7 @@ Analyze
 
 <p>
 Clean, transform and explore data to identify
-patterns and trends.
+patterns, trends and opportunities.
 </p>
 
 </div>
@@ -200,13 +261,10 @@ business recommendations.
 </section>
 
 
-
 <!-- ================= ABOUT ================= -->
 
-<section
-id="about"
-class="section"
->
+<section id="about" class="section">
+
 
 <div class="heading">
 
@@ -226,12 +284,13 @@ Business experience meets data analytics.
 
 <div>
 
+
 <p>
 
-I am an aspiring Data Analyst focused on using
-<strong>Python, SQL, Power BI and Excel</strong>
-to analyze data, uncover patterns and generate
-meaningful business insights.
+I am a <strong>Data Analyst</strong> with hands-on
+experience using <strong>Python, SQL, Power BI
+and Excel</strong> to analyze data, uncover patterns
+and generate meaningful business insights.
 
 </p>
 
@@ -239,10 +298,10 @@ meaningful business insights.
 <p>
 
 I have <strong>1 year 7 months</strong> of professional
-experience as a
-<strong>Representative Operations – Advisor</strong>,
-where I developed strong problem-solving, process
-handling, accuracy and business operations skills.
+experience as a <strong>Representative Operations –
+Advisor</strong>, where I developed strong
+problem-solving, process handling, accuracy and
+business operations skills.
 
 </p>
 
@@ -251,11 +310,12 @@ handling, accuracy and business operations skills.
 
 I am currently pursuing an
 <strong>MCA in Data Science</strong> and building
-hands-on projects involving data cleaning,
+hands-on analytics projects involving data cleaning,
 exploratory data analysis, dashboard development,
 visualization and business reporting.
 
 </p>
+
 
 </div>
 
@@ -322,13 +382,10 @@ Dashboards
 </section>
 
 
-
 <!-- ================= SKILLS ================= -->
 
-<section
-id="skills"
-class="section muted"
->
+<section id="skills" class="section muted">
+
 
 <div class="heading">
 
@@ -353,8 +410,8 @@ Data Analysis
 </h3>
 
 <p>
-Data Analysis · EDA · Data Cleaning ·
-Business Insights · Data Exploration
+EDA · Data Cleaning · Data Exploration ·
+Business Insights · Data Preparation
 </p>
 
 </article>
@@ -368,7 +425,7 @@ BI & Visualization
 
 <p>
 Power BI · DAX · Power Query ·
-Data Modeling · Excel
+Data Modeling · Excel · Data Visualization
 </p>
 
 </article>
@@ -406,13 +463,9 @@ VS Code · Google Sheets
 </section>
 
 
-
 <!-- ================= PROJECTS ================= -->
 
-<section
-id="projects"
-class="section"
->
+<section id="projects" class="section">
 
 
 <div class="heading">
@@ -421,27 +474,27 @@ class="section"
 FEATURED PROJECTS
 </p>
 
+
 <h2>
 Turning datasets into business insights.
 </h2>
 
+
 <p>
 
-My projects demonstrate the complete analytics workflow:
-data preparation, exploratory analysis, visualization,
-insights and business recommendations.
+My projects demonstrate the analytics workflow:
+data preparation, exploratory analysis,
+visualization, insights and business recommendations.
 
 </p>
 
 </div>
 
 
-
 <div class="cards projects">
 
 
-
-<!-- ================= HOTEL BOOKING ================= -->
+<!-- ================= PROJECT 01 ================= -->
 
 <article class="project featured">
 
@@ -465,12 +518,14 @@ Hotel Booking Analysis
 
 Analyzed approximately
 <strong>119K hotel booking records</strong>
-to identify cancellation patterns,
-booking behavior, lead time, stay duration
-and differences between City and Resort Hotels.
+to identify cancellation patterns, booking behavior,
+lead time, stay duration and differences between
+City and Resort Hotels.
 
 </p>
 
+
+<!-- HOTEL IMAGES -->
 
 <div class="project-gallery">
 
@@ -515,74 +570,50 @@ loading="lazy"
 
 <div class="chips">
 
-<span>
-Python
-</span>
-
-<span>
-Pandas
-</span>
-
-<span>
-NumPy
-</span>
-
-<span>
-Matplotlib
-</span>
-
-<span>
-Seaborn
-</span>
-
-<span>
-EDA
-</span>
+<span>Python</span>
+<span>Pandas</span>
+<span>NumPy</span>
+<span>Matplotlib</span>
+<span>Seaborn</span>
+<span>EDA</span>
 
 </div>
 
 
 <p>
 
-<strong>
-Key Findings:
-</strong>
+<strong>Key Findings:</strong>
 
 </p>
 
 
-<p>
+<ul>
 
+<li>
 City Hotel represented approximately
-<strong>66.4%</strong>
-of total bookings.
-
-</p>
+<strong>66.4%</strong> of total bookings.
+</li>
 
 
-<p>
-
+<li>
 City Hotel had a cancellation rate of approximately
 <strong>41.79%</strong>.
+</li>
 
-</p>
 
-
-<p>
-
+<li>
 Resort Hotel had a cancellation rate of approximately
 <strong>27.77%</strong>.
+</li>
 
-</p>
 
-
-<p>
-
+<li>
 Analyzed lead time, stay duration and booking
 patterns to identify factors associated with
 cancellations.
+</li>
 
-</p>
+</ul>
 
 
 <a
@@ -591,17 +622,14 @@ target="_blank"
 rel="noopener"
 class="project-link"
 >
-
 View Project on GitHub →
-
 </a>
 
 
 </article>
 
 
-
-<!-- ================= SHOPIFY ================= -->
+<!-- ================= PROJECT 02 ================= -->
 
 <article class="project">
 
@@ -624,12 +652,14 @@ Shopify Sales Analysis
 <p>
 
 Developed an interactive Power BI dashboard during
-my Innovexis Internship to analyze Shopify sales
-performance, revenue trends, customer behavior
-and key business KPIs.
+my <strong>Innovexis Internship</strong> to analyze
+Shopify sales performance, revenue trends, customer
+behavior and key business KPIs.
 
 </p>
 
+
+<!-- SHOPIFY IMAGES -->
 
 <div class="project-gallery">
 
@@ -660,34 +690,18 @@ loading="lazy"
 
 <div class="chips">
 
-<span>
-Power BI
-</span>
-
-<span>
-Power Query
-</span>
-
-<span>
-DAX
-</span>
-
-<span>
-Data Modeling
-</span>
-
-<span>
-Data Visualization
-</span>
+<span>Power BI</span>
+<span>Power Query</span>
+<span>DAX</span>
+<span>Data Modeling</span>
+<span>Data Visualization</span>
 
 </div>
 
 
 <p>
 
-<strong>
-Focus:
-</strong>
+<strong>Focus:</strong>
 
 Revenue, total orders, average order value,
 customer analysis and retention.
@@ -701,17 +715,14 @@ target="_blank"
 rel="noopener"
 class="project-link"
 >
-
 View Project on GitHub →
-
 </a>
 
 
 </article>
 
 
-
-<!-- ================= AMAZON ================= -->
+<!-- ================= PROJECT 03 ================= -->
 
 <article class="project">
 
@@ -740,6 +751,8 @@ customer insights and important business KPIs.
 </p>
 
 
+<!-- AMAZON IMAGE -->
+
 <div class="project-gallery">
 
 
@@ -755,34 +768,18 @@ loading="lazy"
 
 <div class="chips">
 
-<span>
-Power BI
-</span>
-
-<span>
-DAX
-</span>
-
-<span>
-Power Query
-</span>
-
-<span>
-Excel
-</span>
-
-<span>
-Business Analysis
-</span>
+<span>Power BI</span>
+<span>DAX</span>
+<span>Power Query</span>
+<span>Excel</span>
+<span>Business Analysis</span>
 
 </div>
 
 
 <p>
 
-<strong>
-Focus:
-</strong>
+<strong>Focus:</strong>
 
 Sales performance, trends, KPIs and
 business insights.
@@ -796,17 +793,14 @@ target="_blank"
 rel="noopener"
 class="project-link"
 >
-
 View Project on GitHub →
-
 </a>
 
 
 </article>
 
 
-
-<!-- ================= BIKEDEKHO ================= -->
+<!-- ================= PROJECT 04 ================= -->
 
 <article class="project">
 
@@ -829,43 +823,27 @@ BikeDekho Sales Analysis
 <p>
 
 Created an Excel-based analytics dashboard during
-my Innovexis Internship to analyze vehicle sales
-performance, customer insights and business trends
-using interactive visualizations.
+my <strong>Innovexis Internship</strong> to analyze
+vehicle sales performance, customer insights and
+business trends using interactive visualizations.
 
 </p>
 
 
 <div class="chips">
 
-<span>
-Excel
-</span>
-
-<span>
-Pivot Tables
-</span>
-
-<span>
-Charts
-</span>
-
-<span>
-Slicers
-</span>
-
-<span>
-Data Analysis
-</span>
+<span>Excel</span>
+<span>Pivot Tables</span>
+<span>Charts</span>
+<span>Slicers</span>
+<span>Data Analysis</span>
 
 </div>
 
 
 <p>
 
-<strong>
-Focus:
-</strong>
+<strong>Focus:</strong>
 
 Vehicle sales performance, comparisons,
 customer insights and business-oriented reporting.
@@ -879,17 +857,14 @@ target="_blank"
 rel="noopener"
 class="project-link"
 >
-
 View Project on GitHub →
-
 </a>
 
 
 </article>
 
 
-
-<!-- ================= APPAREL ================= -->
+<!-- ================= PROJECT 05 ================= -->
 
 <article class="project">
 
@@ -918,6 +893,8 @@ to generate meaningful business-oriented insights.
 </p>
 
 
+<!-- APPAREL IMAGE -->
+
 <div class="project-gallery">
 
 
@@ -933,30 +910,17 @@ loading="lazy"
 
 <div class="chips">
 
-<span>
-Python
-</span>
-
-<span>
-Pandas
-</span>
-
-<span>
-Data Analysis
-</span>
-
-<span>
-Data Processing
-</span>
+<span>Python</span>
+<span>Pandas</span>
+<span>Data Analysis</span>
+<span>Data Processing</span>
 
 </div>
 
 
 <p>
 
-<strong>
-Focus:
-</strong>
+<strong>Focus:</strong>
 
 Data exploration, analysis, processing and
 business-oriented insights.
@@ -970,9 +934,7 @@ target="_blank"
 rel="noopener"
 class="project-link"
 >
-
 View Project on GitHub →
-
 </a>
 
 
@@ -980,7 +942,6 @@ View Project on GitHub →
 
 
 </div>
-
 
 
 <!-- ================= GITHUB CALLOUT ================= -->
@@ -1007,9 +968,7 @@ target="_blank"
 rel="noopener"
 class="btn primary"
 >
-
 Visit My GitHub ↗
-
 </a>
 
 
@@ -1019,13 +978,9 @@ Visit My GitHub ↗
 </section>
 
 
-
 <!-- ================= EXPERIENCE ================= -->
 
-<section
-id="experience"
-class="section muted"
->
+<section id="experience" class="section muted">
 
 
 <div class="heading">
@@ -1033,6 +988,7 @@ class="section muted"
 <p class="eyebrow">
 EXPERIENCE
 </p>
+
 
 <h2>
 My professional journey.
@@ -1043,6 +999,8 @@ My professional journey.
 
 <div class="timeline">
 
+
+<!-- OPERATIONS EXPERIENCE -->
 
 <div>
 
@@ -1068,10 +1026,10 @@ defined processes.
 
 </p>
 
-
 </div>
 
 
+<!-- DATA ANALYTICS EXPERIENCE -->
 
 <div>
 
@@ -1096,7 +1054,6 @@ and generating business insights.
 
 </p>
 
-
 </div>
 
 
@@ -1105,13 +1062,9 @@ and generating business insights.
 </section>
 
 
-
 <!-- ================= EDUCATION ================= -->
 
-<section
-id="education"
-class="section"
->
+<section id="education" class="section">
 
 
 <div class="heading">
@@ -1154,16 +1107,13 @@ analytics, programming, databases and technology.
 </section>
 
 
-
 <!-- ================= CERTIFICATIONS ================= -->
 
-<section
-id="certifications"
-class="section muted"
->
+<section id="certifications" class="section muted">
 
 
 <div class="heading">
+
 
 <p class="eyebrow">
 CERTIFICATIONS
@@ -1177,10 +1127,11 @@ Continuous learning.
 
 <p>
 
-Certifications and learning programs supporting my
-data analytics and business intelligence skills.
+Certifications and learning programs supporting
+my data analytics and business intelligence skills.
 
 </p>
+
 
 </div>
 
@@ -1274,13 +1225,9 @@ Power BI and data analysis.
 </section>
 
 
-
 <!-- ================= CONTACT ================= -->
 
-<section
-id="contact"
-class="section contact"
->
+<section id="contact" class="section contact">
 
 
 <p class="eyebrow">
@@ -1309,9 +1256,7 @@ and communicate insights clearly.
 class="btn primary"
 href="mailto:patildivya0616@gmail.com"
 >
-
 Email Me
-
 </a>
 
 
@@ -1321,9 +1266,7 @@ href="https://www.linkedin.com/in/divya-patil-997ba3343/"
 target="_blank"
 rel="noopener"
 >
-
 LinkedIn ↗
-
 </a>
 
 
@@ -1333,9 +1276,7 @@ href="https://github.com/PatilDivya06"
 target="_blank"
 rel="noopener"
 >
-
 GitHub ↗
-
 </a>
 
 
@@ -1355,7 +1296,6 @@ patildivya0616@gmail.com
 </main>
 
 
-
 <!-- ================= FOOTER ================= -->
 
 <footer>
@@ -1365,9 +1305,7 @@ patildivya0616@gmail.com
 </footer>
 
 
-
 <script src="script.js"></script>
-
 
 </body>
 
